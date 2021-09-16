@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)https://viparcher.gitee.io/xiaogongjiang/user/user_center.html -->
+<html lang="zh-cmn-Hans" class="pixel-ratio-3 retina ios ios-11 ios-11-0 ios-gt-10 ios-gt-9 ios-gt-8 ios-gt-7 ios-gt-6">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.3/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.1/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/global.css">
+    <script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-weui/1.2.1/js/jquery-weui.min.js"></script>
+    <script type="text/javascript" src="/static/js/reCommon.js"></script>
+    <title>个人中心</title>
+    <style>
+        #output {
+            z-index: 0;
+            top: 0;
+            left: 0;
+            position: absolute;
+            background-color: #5eb5ef;
+            width: 100% !important;
+            height: 40vw !important;
+        }
+    </style>
+</head>
+<body ontouchstart="">
+<!-- 主体内容 -->
+<div class="tab-content">
+    <!-- 头部头像信息 -->
+    <div class="head-info" id="head-bg">
+        <h1 class="cf">个人中心</h1>
+        <span class="portrait center-block">
+        <img src="/static/img/avatar3.jpg" class="cover b-r50">
+      </span>
+        <p class="name text-center cf" id="nickname">
+            太蔟
+            <i class="sex-icon sex-w" aria-hidden="true"></i>
+            <!-- <i class="sex-icon sex-m" aria-hidden="true"></i> -->
+            <!-- 男性 sex-m 女性 sex-w-->
+        </p>
+        <div id="output">
+            <canvas width="414" height="166" style="display: block;"></canvas>
+        </div>
+        <!--        <script src="/static/js/vector.js" container="head-bg" anitout="output"></script>-->
+    </div>
+    <!-- 订单入口 -->
+    <div class="weui-cells">
+        <a class="weui-cell weui-cell_access" href="javascript:void(0);">
+            <div class="weui-cell__bd">
+                <p>充值详情</p>
+            </div>
+            <div class="weui-cell__ft">
+                <samll>查看更多充值记录</samll>
+            </div>
+        </a>
+        <div class="weui-flex weui-cell weui-cell_access">
+            <div class="weui-flex__item">
+                <a href="javascript:void(0);" onclick="useCdkey();">卡号充值</a>
+                <!--           <span class="weui-badge" style="position: absolute;top: .4em;">4</span>-->
+            </div>
+            <div class="weui-flex__item">
+                <a href="javascript:void(0);" onclick="getExpTime();">到期时间</a>
+            </div>
+            <div class="weui-flex__item">
+                <a href="javascript:void(0);" onclick="getCdkey();">获取卡号</a>
+                <!--            <span class="weui-badge" style="position: absolute;top: .4em;">1</span>-->
+            </div>
+            <div class="weui-flex__item">
+                <a href="javascript:void(0);">升级VIP</a>
+                <!--             <span class="weui-badge" style="position: absolute;top: .4em;">50</span>-->
+            </div>
+        </div>
+    </div>
+    <!-- 功能菜单列表 -->
+    <div class="cells-list">
+        <div class="weui-cells">
+            <a class="weui-cell weui-cell_access" href="javascript:void(0);">
+                <div class="weui-cell__hd">
+                    <img src="/static/img/icon-integral.svg" class="icon">
+                </div>
+                <div class="weui-cell__bd">
+                    <p>申请成为代理商</p>
+                </div>
+                <div class="weui-cell__ft"></div>
+            </a>
+        </div>
+        <div class="weui-cells">
+            <a class="weui-cell weui-cell_access"
+               href="javascript:void(0);">
+                <div class="weui-cell__hd">
+                    <img src="/static/img/icon-worker.svg" class="icon">
+                </div>
+                <div class="weui-cell__bd">
+                    <p>充值卡商城</p>
+                </div>
+                <div class="weui-cell__ft"></div>
+            </a>
+        </div>
+        <!--        <div class="weui-cells">
+                    <a class="weui-cell weui-cell_access" href="https://viparcher.gitee.io/xiaogongjiang/order_center.html">
+                        <div class="weui-cell__hd">
+                            <img src="/static/img/icon-mall.svg" class="icon">
+                        </div>
+                        <div class="weui-cell__bd">
+                            <p>商城订单</p>
+                        </div>
+                        <div class="weui-cell__ft"></div>
+                    </a>
+                </div>-->
+        <div class="weui-cells">
+            <a class="weui-cell weui-cell_access" href="javascript:void(0);">
+                <div class="weui-cell__hd">
+                    <img src="/static/img/icon-spread.svg" class="icon">
+                </div>
+                <div class="weui-cell__bd">
+                    <p>我的推荐</p>
+                </div>
+                <div class="weui-cell__ft"></div>
+            </a>
+        </div>
+        <div class="weui-cells">
+            <a class="weui-cell weui-cell_access" href="javascript:void(0);">
+                <div class="weui-cell__hd">
+                    <img src="/static/img/icon-user.svg" class="icon">
+                </div>
+                <div class="weui-cell__bd">
+                    <p>我的资料</p>
+                </div>
+                <div class="weui-cell__ft"></div>
+            </a>
+        </div>
+        <div class="weui-cells">
+            <a class="weui-cell weui-cell_access" href="javascript:void(0);">
+                <div class="weui-cell__hd">
+                    <img src="/static/img/icon-setup.svg" class="icon">
+                </div>
+                <div class="weui-cell__bd">
+                    <p>设置</p>
+                </div>
+                <div class="weui-cell__ft"></div>
+            </a>
+        </div>
+        <div class="weui-cells">
+            <a class="weui-cell weui-cell_access" href="javascript:void(0);">
+                <div class="weui-cell__hd">
+                    <img src="/static/img/icon-about.svg" class="icon">
+                </div>
+                <div class="weui-cell__bd">
+                    <p>关于我们</p>
+                </div>
+                <div class="weui-cell__ft"></div>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- 主体内容END -->
+
+<script>
+    $(function () {
+        getData(
+            'post',
+            '/redis/getNickName',
+            '',
+            'json',
+            function (obj) {
+                if (obj.code == "success") {
+                    $("#nickname").html(obj.desc);
+                }
+            });
+    })
+
+
+    function getCdkey() {
+        $.modal({
+            title: "充值卡获取",
+            text: "请选择充值卡类型",
+            buttons: [
+                {
+                    text: "年卡", onClick: function () {
+                    requestCdkey(8760);
+                }
+                },
+                {
+                    text: "月卡", onClick: function () {
+                    requestCdkey(744);
+                }
+                },
+                {
+                    text: "周卡", onClick: function () {
+                    requestCdkey(168);
+                }
+                },
+                {
+                    text: "取消", className: "default", onClick: function () {
+                }
+                },
+            ]
+        });
+    }
+
+
+    function requestCdkey(num) {
+        var param = {};
+        param.num = num;
+        getData(
+            'post',
+            '/redis/getCdkeyByAdmin',
+            param,
+            'json',
+            function (obj) {
+                $.alert(obj.desc, obj.code);
+            });
+    }
+
+    function useCdkey() {
+        $.prompt({
+            title: '充值',
+            text: '输入获取的充值码',
+            input: '',
+            empty: false, // 是否允许为空
+            onOK: function (input) {
+                var param = {};
+                param.cdkey = input;
+                getData(
+                    'post',
+                    '/redis/useCdkey',
+                    param,
+                    'json',
+                    function (obj) {
+                        if (obj.code == "success") {
+                            $.toptip(obj.desc, 'success');
+                        } else {
+                            $.toptip(obj.desc, 'error');
+                        }
+                    });
+            },
+            onCancel: function () {
+                //点击取消
+            }
+        });
+    }
+
+
+    function getExpTime() {
+        getData(
+            'post',
+            '/redis/getExpTime',
+            '',
+            'json',
+            function (obj) {
+                if (obj.code == "success") {
+                    $.toptip(obj.desc, 'success');
+                } else {
+                    $.toptip(obj.desc, 'error');
+                }
+            });
+    }
+</script>
+
+</body>
+</html>

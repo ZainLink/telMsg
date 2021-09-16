@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link rel="stylesheet" href="/static/css/chatbox.css">
+    <script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+</head>
+<body style="width: 98%;display:block;height: 100%;" id="myarea">
+
+<div style="width: 100%;height:50%;" id="chatArea">
+    <!--    &lt;!&ndash; Left &ndash;&gt;
+        <div class="chat-sender">
+            <div><img src="/static/img/avatar2.jpg"></div>
+            <div>客服</div>
+            <div>
+                <div class="chat-left_triangle"></div>
+                <span>哈哈哈哈</span>
+            </div>
+        </div>
+        &lt;!&ndash; Right &ndash;&gt;
+        <div class="chat-receiver">
+            <div><img src="/static/img/avatar3.jpg"></div>
+            <div>我</div>
+            <div>
+                <div class="chat-right_triangle"></div>
+                <span> 辣鸡</span>
+            </div>
+        </div>
+        &lt;!&ndash; Right &ndash;&gt;
+        <div class="chat-sender">
+            <div><img src="/static/img/avatar2.jpg"></div>
+            <div>客服</div>
+            <div>
+                <div class="chat-left_triangle"></div>
+                <span> 看什么看</span>
+            </div>
+        </div>
+        &lt;!&ndash; Notice/Center &ndash;&gt;
+        <div class="chat-notice">
+            <span>2019年04月16日 23:13</span>
+        </div>
+        &lt;!&ndash; Left &ndash;&gt;
+        <div class="chat-sender">
+            <div><img src="/static/img/avatar2.jpg"/></div>
+            <div>客服</div>
+            <div>
+                <div class="chat-left_triangle"></div>
+                <span> 刺激战场真好玩</span>
+            </div>
+        </div>
+        &lt;!&ndash; Left &ndash;&gt;
+        <div class="chat-sender">
+            <div><img src="/static/img/avatar2.jpg"></div>
+            <div>客服</div>
+            <div>
+                <div class="chat-left_triangle"></div>
+                <span>我还要玩</span>
+            </div>
+        </div>
+        &lt;!&ndash; Right &ndash;&gt;
+        <div class="chat-receiver">
+            <div><img src="/static/img/avatar3.jpg"></div>
+            <div>我</div>
+            <div>
+                <div class="chat-right_triangle"></div>
+                <span> 辣鸡青铜</span>
+            </div>
+        </div>
+        &lt;!&ndash; Notice/Center &ndash;&gt;
+        <div class="chat-notice">
+            <span>你被群主移除群聊</span>
+        </div>-->
+</div>
+
+</body>
+</html>
+
+<script>
+
+    $(function () {
+    })
+
+
+    function systemInfo(user) {
+        var str = '<div class="chat-notice">' +
+            '<span>用户' + user + '上线</span>' +
+            '</div>';
+        $("#chatArea").append(str);
+        window.scrollTo(0, 9999999);
+    }
+
+    function systemSay(man, say) {
+        var str = '<div class="chat-sender">' +
+            '<div><img src="/static/img/avatar2.jpg"></div>' +
+            '<div>' + man + '</div>' +
+            '<div>' +
+            '<div class="chat-left_triangle"></div>' +
+            '<span style="display:inline-block;width:90%;word-wrap:break-word;white-space:normal;padding-left: 10px;" >' + say + '</span>' +
+            '</div>' +
+            '</div>';
+        $("#chatArea").append(str);
+        window.scrollTo(0, 9999999);
+    }
+
+    function mySay(man, say) {
+        var str = '<div class="chat-receiver">' +
+            ' <div><img src="/static/img/avatar3.jpg"></div>' +
+            '<div>' + man + '</div>' +
+            '<div>' +
+            '<div class="chat-right_triangle"></div>' +
+            ' <span style="display:inline-block;width:90%;word-wrap:break-word;white-space:normal;" > ' + say + '</span>' +
+            '</div>' +
+            '</div>';
+        $("#chatArea").append(str);
+        window.scrollTo(0, 9999999);
+    }
+
+
+</script>

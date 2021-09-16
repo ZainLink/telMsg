@@ -1,0 +1,162 @@
+[ERROR] 2019-04-12 13:34:49,651 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisService in com.zyportal2.system.controller.RedisController required a bean of type 'com.zyportal2.system.service.RedisService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zyportal2.system.service.RedisService' in your configuration.
+
+[ERROR] 2019-04-12 13:56:12,647 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisService in com.zyportal2.system.controller.RedisController required a bean of type 'com.zyportal2.system.service.RedisService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zyportal2.system.service.RedisService' in your configuration.
+
+[ERROR] 2019-04-12 13:57:11,217 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisService in com.zyportal2.system.controller.RedisController required a bean of type 'com.zyportal2.system.service.RedisService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zyportal2.system.service.RedisService' in your configuration.
+
+[ERROR] 2019-04-12 13:57:45,107 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisService in com.zyportal2.system.controller.RedisController required a bean of type 'com.zyportal2.system.service.RedisService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zyportal2.system.service.RedisService' in your configuration.
+
+[ERROR] 2019-04-12 14:01:12,590 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisService in com.zyportal2.system.controller.RedisController required a bean of type 'com.zyportal2.system.service.RedisService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zyportal2.system.service.RedisService' in your configuration.
+
+[ERROR] 2019-04-12 14:03:38,345 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisService in com.zyportal2.system.controller.RedisController required a bean of type 'com.zyportal2.system.service.RedisService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zyportal2.system.service.RedisService' in your configuration.
+
+[ERROR] 2019-04-12 14:03:56,618 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisService in com.zyportal2.system.controller.RedisController required a bean of type 'com.zyportal2.system.service.RedisService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zyportal2.system.service.RedisService' in your configuration.
+
+[ERROR] 2019-04-12 15:10:27,226 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field smsService in com.zyportal2.system.controller.SmsTaskController required a bean of type 'com.zyportal2.system.service.SmsService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zyportal2.system.service.SmsService' in your configuration.
+
+[ERROR] 2019-04-12 15:11:20,878 [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field smsService in com.zyportal2.system.controller.SmsTaskController required a bean of type 'com.zyportal2.system.service.SmsService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zyportal2.system.service.SmsService' in your configuration.
+

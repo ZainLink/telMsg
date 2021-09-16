@@ -1,0 +1,869 @@
+[INFO ] 2020-05-26 12:45:58,249 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 6164 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:45:58,252 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:45:58,452 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-05-26 12:45:58,452 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-05-26 12:46:00,096 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:46:00,102 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:46:00,175 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:46:00,817 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5383220c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:46:02,129 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:46:02,156 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:46:02,172 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:46:02,173 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:46:02,189 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\Thinkpad-W530\product\11.2.0\client_2\bin;C:\app\Thinkpad-W530\product\11.2.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;".;D:\Java\jdk1.8.0\lib;D:\Java\jdk1.8.0\lib\tools.jar";"D:\maven\apache-maven-3.3.9\bin";C:\Program Files\nodejs\;C:\Users\Thinkpad-W530\AppData\Local\Microsoft\WindowsApps;C:\Users\Thinkpad-W530\AppData\Roaming\npm;.]
+[INFO ] 2020-05-26 12:46:02,365 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:46:02,366 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3896 ms
+[INFO ] 2020-05-26 12:46:03,526 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:46:03,848 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:46:04,172 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:46:04,298 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:46:04,419 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:46:04,464 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:46:04,470 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 7.285 seconds (JVM running for 8.151)
+[INFO ] 2020-05-26 12:46:04,472 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:46:04,475 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:46:04,682 [pool-3-thread-1] io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2020-05-26 12:46:04,685 [pool-3-thread-1] io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2020-05-26 12:46:41,028 [Thread-6] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:46:41,030 [Thread-6] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:46:42,951 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 6164 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:46:42,952 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:46:43,624 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:46:43,625 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:46:43,650 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:46:43,797 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5383220c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:46:44,079 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:46:44,080 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:46:44,081 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:46:44,081 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:46:44,167 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:46:44,168 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1211 ms
+[INFO ] 2020-05-26 12:46:51,379 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:46:51,381 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:46:51,544 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-05-26 12:46:51,544 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-05-26 12:46:52,852 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:46:52,857 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:46:52,925 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:46:53,629 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:46:54,935 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:46:54,964 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:46:54,988 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:46:54,988 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:46:55,007 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\Thinkpad-W530\product\11.2.0\client_2\bin;C:\app\Thinkpad-W530\product\11.2.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;".;D:\Java\jdk1.8.0\lib;D:\Java\jdk1.8.0\lib\tools.jar";"D:\maven\apache-maven-3.3.9\bin";C:\Program Files\nodejs\;C:\Users\Thinkpad-W530\AppData\Local\Microsoft\WindowsApps;C:\Users\Thinkpad-W530\AppData\Roaming\npm;.]
+[INFO ] 2020-05-26 12:46:55,203 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:46:55,204 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3659 ms
+[INFO ] 2020-05-26 12:46:56,353 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:46:56,670 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:46:56,953 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:46:57,078 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:46:57,193 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:46:57,242 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:46:57,248 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 7.02 seconds (JVM running for 7.924)
+[INFO ] 2020-05-26 12:46:57,250 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:46:57,252 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:46:57,455 [pool-3-thread-1] io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2020-05-26 12:46:57,457 [pool-3-thread-1] io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2020-05-26 12:48:04,800 [http-nio-1888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-05-26 12:48:04,800 [http-nio-1888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-05-26 12:48:04,815 [http-nio-1888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+[INFO ] 2020-05-26 12:48:39,127 [Thread-6] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:48:39,129 [Thread-6] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:48:41,153 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:48:41,154 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:48:41,704 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:48:41,705 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:48:41,727 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:48:41,857 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:48:42,269 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:48:42,271 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:48:42,271 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:48:42,272 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:48:42,323 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:48:42,323 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1163 ms
+[INFO ] 2020-05-26 12:48:42,545 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:48:42,632 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:48:42,694 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:48:42,767 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:48:42,808 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:48:42,814 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:48:42,815 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.75 seconds (JVM running for 113.492)
+[INFO ] 2020-05-26 12:48:42,816 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:48:42,820 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 12:48:42,821 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:50:09,337 [Thread-10] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:50:09,339 [Thread-10] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:50:11,282 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:50:11,282 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:50:11,834 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:50:11,834 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:50:11,856 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:50:11,965 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:50:12,131 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:50:12,133 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:50:12,134 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:50:12,134 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:50:12,180 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:50:12,181 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 893 ms
+[INFO ] 2020-05-26 12:50:12,429 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:50:12,524 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:50:12,593 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:50:12,681 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:50:12,734 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:50:12,743 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:50:12,744 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.548 seconds (JVM running for 203.42)
+[INFO ] 2020-05-26 12:50:12,745 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:50:12,749 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 12:50:12,749 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:53:00,029 [Thread-16] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:53:00,031 [Thread-16] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:53:01,903 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:53:01,903 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:53:02,397 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:53:02,397 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:53:02,420 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:53:02,518 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:53:02,680 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:53:02,681 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:53:02,682 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:53:02,682 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:53:02,721 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:53:02,721 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 813 ms
+[INFO ] 2020-05-26 12:53:02,906 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:53:02,966 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:53:03,027 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:53:03,095 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:53:03,133 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:53:03,139 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:53:03,140 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.311 seconds (JVM running for 373.817)
+[INFO ] 2020-05-26 12:53:03,141 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:53:03,145 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 12:53:03,145 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:53:22,233 [Thread-22] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:53:22,235 [Thread-22] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:53:24,344 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:53:24,345 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:53:24,823 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:53:24,823 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:53:24,844 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:53:24,956 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:53:25,099 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:53:25,100 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:53:25,100 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:53:25,101 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:53:25,137 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:53:25,137 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 785 ms
+[INFO ] 2020-05-26 12:53:25,368 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:53:25,435 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:53:25,525 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:53:25,611 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:53:25,638 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:53:25,645 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:53:25,646 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.397 seconds (JVM running for 396.322)
+[INFO ] 2020-05-26 12:53:25,649 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:53:25,652 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 12:53:25,652 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:54:53,182 [Thread-28] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:54:53,184 [Thread-28] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:54:55,063 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:54:55,064 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:54:55,430 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:54:55,430 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:54:55,451 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:54:55,546 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:54:55,680 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:54:55,681 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:54:55,682 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:54:55,682 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:54:55,734 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:54:55,735 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 666 ms
+[INFO ] 2020-05-26 12:54:55,969 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:54:56,013 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:54:56,046 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:54:56,097 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:54:56,130 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:54:56,137 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:54:56,138 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.139 seconds (JVM running for 486.814)
+[INFO ] 2020-05-26 12:54:56,139 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:54:56,141 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 12:54:56,141 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:55:09,003 [Thread-34] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:55:09,004 [Thread-34] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:55:11,198 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:55:11,198 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:55:11,670 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:55:11,670 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:55:11,710 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:55:11,821 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:55:11,976 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:55:11,977 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:55:11,978 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:55:11,978 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:55:12,021 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:55:12,021 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 818 ms
+[INFO ] 2020-05-26 12:55:12,222 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:55:12,284 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:55:12,332 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:55:12,408 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:55:12,532 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:55:12,538 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:55:12,539 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.418 seconds (JVM running for 503.215)
+[INFO ] 2020-05-26 12:55:12,541 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:55:12,543 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 12:55:12,544 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:55:13,951 [Thread-40] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:55:13,951 [Thread-40] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:55:15,769 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:55:15,769 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:55:16,062 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:55:16,062 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:55:16,079 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:55:16,151 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:55:16,248 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:55:16,249 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:55:16,249 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:55:16,249 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:55:16,281 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:55:16,281 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 509 ms
+[INFO ] 2020-05-26 12:55:16,389 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:55:16,428 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:55:16,454 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:55:16,507 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:55:16,535 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:55:16,542 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:55:16,543 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 0.831 seconds (JVM running for 507.219)
+[INFO ] 2020-05-26 12:55:16,544 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:55:16,548 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 12:55:16,548 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:55:30,434 [Thread-46] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:55:30,435 [Thread-46] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:55:32,459 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:55:32,460 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:55:32,731 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:55:32,731 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:55:32,748 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:55:32,813 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:55:32,927 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:55:32,928 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:55:32,928 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:55:32,928 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:55:32,958 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:55:32,958 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 495 ms
+[INFO ] 2020-05-26 12:55:33,061 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:55:33,095 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:55:33,117 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:55:33,163 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:55:33,183 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:55:33,188 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:55:33,189 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 0.788 seconds (JVM running for 523.865)
+[INFO ] 2020-05-26 12:55:33,190 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:55:33,192 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 12:55:33,192 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:56:25,448 [Thread-52] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:56:25,449 [Thread-52] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:56:27,295 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:56:27,296 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:56:27,569 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:56:27,569 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:56:27,588 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:56:27,651 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:56:27,741 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:56:27,742 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:56:27,742 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:56:27,742 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:56:27,773 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:56:27,773 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 474 ms
+[INFO ] 2020-05-26 12:56:27,893 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:56:27,928 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:56:27,954 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:56:28,000 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:56:28,019 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:56:28,025 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:56:28,026 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 0.791 seconds (JVM running for 578.702)
+[INFO ] 2020-05-26 12:56:28,026 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:56:28,029 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 12:56:28,029 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 12:57:02,724 [Thread-58] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:57:02,725 [Thread-58] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:57:04,564 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 12:57:04,565 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 12:57:04,826 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 12:57:04,826 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 12:57:04,843 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 12:57:04,907 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 12:57:05,008 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 12:57:05,009 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:57:05,010 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 12:57:05,010 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 12:57:05,046 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 12:57:05,046 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 478 ms
+[INFO ] 2020-05-26 12:57:05,174 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 12:57:05,215 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 12:57:05,245 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 12:57:05,295 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 12:57:05,317 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 12:57:05,322 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 12:57:05,323 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 0.818 seconds (JVM running for 615.999)
+[INFO ] 2020-05-26 12:57:05,324 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 12:57:05,327 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 12:57:05,327 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:11:34,588 [Thread-64] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:11:34,589 [Thread-64] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:11:36,431 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:11:36,431 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:11:36,706 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:11:36,706 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:11:36,722 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:11:36,787 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:11:36,873 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 13:11:36,874 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:11:36,874 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:11:36,874 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:11:36,903 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:11:36,903 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 468 ms
+[INFO ] 2020-05-26 13:11:37,011 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:11:37,043 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:11:37,066 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:11:37,114 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:11:37,134 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:11:37,139 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 13:11:37,140 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 0.777 seconds (JVM running for 1487.816)
+[INFO ] 2020-05-26 13:11:37,141 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:11:37,144 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:11:37,144 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:24:35,914 [Thread-70] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:24:35,915 [Thread-70] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:24:37,920 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:24:37,921 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:24:38,180 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:24:38,180 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:24:38,195 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:24:38,254 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:24:38,341 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 13:24:38,342 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:24:38,342 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:24:38,342 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:24:38,372 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:24:38,372 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 448 ms
+[INFO ] 2020-05-26 13:24:38,468 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:24:38,500 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:24:38,523 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:24:38,569 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:24:38,589 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:24:38,594 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 13:24:38,594 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 0.734 seconds (JVM running for 2269.27)
+[INFO ] 2020-05-26 13:24:38,595 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:24:38,598 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:24:38,598 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:24:41,110 [Thread-76] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:24:41,111 [Thread-76] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:24:43,227 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:24:43,227 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:24:43,483 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:24:43,483 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:24:43,498 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:24:43,556 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:24:43,644 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 13:24:43,645 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:24:43,645 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:24:43,645 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:24:43,675 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:24:43,675 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 445 ms
+[INFO ] 2020-05-26 13:24:43,773 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:24:43,805 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:24:43,830 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:24:43,876 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:24:43,891 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:24:43,896 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 13:24:43,896 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 0.725 seconds (JVM running for 2274.572)
+[INFO ] 2020-05-26 13:24:43,897 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:24:43,899 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:24:43,899 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:24:55,161 [Thread-82] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:24:55,162 [Thread-82] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:24:57,306 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:24:57,307 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:24:57,586 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:24:57,586 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:24:57,604 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:24:57,675 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:24:57,787 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 13:24:57,788 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:24:57,788 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:24:57,788 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:24:57,824 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:24:57,824 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 513 ms
+[INFO ] 2020-05-26 13:24:57,952 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:24:57,998 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:24:58,027 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:24:58,078 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:24:58,098 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:24:58,103 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 13:24:58,104 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 0.866 seconds (JVM running for 2288.78)
+[INFO ] 2020-05-26 13:24:58,105 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:24:58,108 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:24:58,108 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:25:09,959 [Thread-88] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:25:09,961 [Thread-88] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:25:11,908 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 1372 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:25:11,908 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:25:12,160 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:25:12,161 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:25:12,176 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:25:12,247 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fd5b20bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:25:12,363 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 13:25:12,364 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:25:12,365 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:25:12,365 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:25:12,402 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:25:12,402 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 490 ms
+[INFO ] 2020-05-26 13:25:12,576 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:25:12,638 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:25:12,680 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:25:12,745 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:25:12,770 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:25:12,775 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 13:25:12,775 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 0.926 seconds (JVM running for 2303.452)
+[INFO ] 2020-05-26 13:25:12,776 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:25:12,778 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:25:12,779 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:29:55,348 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 2080 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:29:55,349 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:29:55,501 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-05-26 13:29:55,501 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-05-26 13:29:56,801 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:29:56,807 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:29:56,877 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:29:57,561 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93865bd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:29:58,953 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2020-05-26 13:29:58,983 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:29:59,007 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:29:59,008 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:29:59,025 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\Thinkpad-W530\product\11.2.0\client_2\bin;C:\app\Thinkpad-W530\product\11.2.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;".;D:\Java\jdk1.8.0\lib;D:\Java\jdk1.8.0\lib\tools.jar";"D:\maven\apache-maven-3.3.9\bin";C:\Program Files\nodejs\;C:\Users\Thinkpad-W530\AppData\Local\Microsoft\WindowsApps;C:\Users\Thinkpad-W530\AppData\Roaming\npm;.]
+[INFO ] 2020-05-26 13:29:59,221 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:29:59,221 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3719 ms
+[INFO ] 2020-05-26 13:30:00,391 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:30:00,705 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:30:01,004 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:30:01,141 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:30:01,286 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2020-05-26 13:30:01,345 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2020-05-26 13:30:01,353 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 7.108 seconds (JVM running for 8.036)
+[INFO ] 2020-05-26 13:30:01,355 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:30:01,359 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:30:01,584 [pool-3-thread-1] io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2020-05-26 13:30:01,586 [pool-3-thread-1] io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2020-05-26 13:37:41,727 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 12812 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:37:41,729 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:37:41,915 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-05-26 13:37:41,915 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-05-26 13:37:43,256 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:37:43,261 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:37:43,346 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:37:44,141 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f88218b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:37:45,549 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:37:45,576 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:37:45,598 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:37:45,598 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:37:45,613 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\Thinkpad-W530\product\11.2.0\client_2\bin;C:\app\Thinkpad-W530\product\11.2.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;".;D:\Java\jdk1.8.0\lib;D:\Java\jdk1.8.0\lib\tools.jar";"D:\maven\apache-maven-3.3.9\bin";C:\Program Files\nodejs\;C:\Users\Thinkpad-W530\AppData\Local\Microsoft\WindowsApps;C:\Users\Thinkpad-W530\AppData\Roaming\npm;.]
+[INFO ] 2020-05-26 13:37:45,809 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:37:45,810 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3893 ms
+[INFO ] 2020-05-26 13:37:47,092 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:37:47,430 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:37:47,756 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:37:47,886 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:37:48,022 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:37:48,078 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:37:48,082 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 7.619 seconds (JVM running for 8.491)
+[INFO ] 2020-05-26 13:37:48,085 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:37:48,090 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:37:48,285 [pool-3-thread-1] io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2020-05-26 13:37:48,286 [pool-3-thread-1] io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2020-05-26 13:38:12,308 [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-05-26 13:38:12,308 [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-05-26 13:38:12,322 [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+[INFO ] 2020-05-26 13:40:35,368 [Thread-6] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:40:35,371 [Thread-6] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:40:37,560 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 12812 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:40:37,561 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:40:38,367 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:40:38,367 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:40:38,401 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:40:38,619 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f88218b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:40:38,903 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:40:38,905 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:40:38,906 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:40:38,906 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:40:38,994 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:40:38,995 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1423 ms
+[INFO ] 2020-05-26 13:40:39,311 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:40:39,429 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:40:39,617 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:40:39,879 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:40:39,985 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:40:40,011 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:40:40,012 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 2.611 seconds (JVM running for 180.42)
+[INFO ] 2020-05-26 13:40:40,014 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:40:40,053 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:40:40,054 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:40:55,320 [Thread-10] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:40:55,322 [Thread-10] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:40:57,424 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 12812 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:40:57,424 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:40:57,936 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:40:57,937 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:40:57,961 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:40:58,107 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f88218b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:40:58,305 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:40:58,307 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:40:58,308 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:40:58,308 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:40:58,354 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:40:58,354 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 925 ms
+[INFO ] 2020-05-26 13:40:58,591 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:40:58,709 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:40:58,781 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:40:58,859 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:40:58,893 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:40:58,899 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:40:58,900 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.559 seconds (JVM running for 199.309)
+[INFO ] 2020-05-26 13:40:58,902 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:40:58,906 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:40:58,906 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:41:07,323 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-05-26 13:41:07,324 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-05-26 13:41:07,331 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+[INFO ] 2020-05-26 13:45:04,049 [Thread-16] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:45:04,055 [Thread-16] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:45:06,226 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 12812 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:45:06,226 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:45:06,691 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:45:06,691 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:45:06,722 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:45:06,840 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f88218b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:45:06,977 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:45:06,978 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:45:06,979 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:45:06,979 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:45:07,013 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:45:07,014 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 784 ms
+[INFO ] 2020-05-26 13:45:07,278 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:45:07,345 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:45:07,395 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:45:07,469 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:45:07,512 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:45:07,519 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:45:07,520 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.37 seconds (JVM running for 447.929)
+[INFO ] 2020-05-26 13:45:07,523 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:45:07,527 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:45:07,527 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:45:40,113 [Thread-22] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:45:40,116 [Thread-22] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:45:42,073 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 12812 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:45:42,073 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:45:42,494 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:45:42,494 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:45:42,516 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:45:42,616 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f88218b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:45:42,755 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:45:42,757 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:45:42,757 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:45:42,757 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:45:42,794 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:45:42,795 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 717 ms
+[INFO ] 2020-05-26 13:45:42,982 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:45:43,047 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:45:43,098 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:45:43,163 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:45:43,194 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:45:43,201 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:45:43,201 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.199 seconds (JVM running for 483.61)
+[INFO ] 2020-05-26 13:45:43,202 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:45:43,206 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:45:43,206 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:49:01,751 [Thread-28] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:49:01,754 [Thread-28] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:49:08,847 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 15876 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:49:08,850 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:49:09,014 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-05-26 13:49:09,014 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-05-26 13:49:10,645 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:49:10,652 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:49:10,735 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:49:11,598 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cbf8c11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:49:13,223 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:49:13,250 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:49:13,269 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:49:13,270 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:49:13,289 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\Thinkpad-W530\product\11.2.0\client_2\bin;C:\app\Thinkpad-W530\product\11.2.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;".;D:\Java\jdk1.8.0\lib;D:\Java\jdk1.8.0\lib\tools.jar";"D:\maven\apache-maven-3.3.9\bin";C:\Program Files\nodejs\;C:\Users\Thinkpad-W530\AppData\Local\Microsoft\WindowsApps;C:\Users\Thinkpad-W530\AppData\Roaming\npm;.]
+[INFO ] 2020-05-26 13:49:13,543 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:49:13,544 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4529 ms
+[INFO ] 2020-05-26 13:49:15,028 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:49:15,455 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:49:15,817 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:49:15,965 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:49:16,121 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:49:16,197 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:49:16,205 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 8.681 seconds (JVM running for 9.637)
+[INFO ] 2020-05-26 13:49:16,208 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:49:16,213 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:49:16,507 [pool-3-thread-1] io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2020-05-26 13:49:16,511 [pool-3-thread-1] io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2020-05-26 13:49:26,542 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-05-26 13:49:26,542 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-05-26 13:49:26,554 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+[INFO ] 2020-05-26 13:49:56,885 [Thread-6] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:49:56,887 [Thread-6] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:49:58,814 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 15876 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:49:58,815 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:49:59,408 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:49:59,408 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:49:59,436 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:49:59,638 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cbf8c11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:50:00,091 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:50:00,092 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:50:00,093 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:50:00,096 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:50:00,164 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:50:00,165 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1344 ms
+[INFO ] 2020-05-26 13:50:00,678 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:50:00,823 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:50:00,958 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:50:01,044 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:50:01,097 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:50:01,104 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:50:01,105 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 2.388 seconds (JVM running for 54.536)
+[INFO ] 2020-05-26 13:50:01,107 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:50:01,112 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:50:01,112 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:50:02,548 [Thread-10] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:50:02,550 [Thread-10] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:50:04,746 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 15876 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:50:04,746 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:50:05,690 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:50:05,690 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:50:05,724 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:50:05,898 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cbf8c11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:50:06,152 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:50:06,153 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:50:06,154 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:50:06,154 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:50:06,198 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:50:06,199 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1448 ms
+[INFO ] 2020-05-26 13:50:06,542 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:50:06,635 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:50:06,703 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:50:06,784 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:50:06,818 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:50:06,824 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:50:06,825 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 2.209 seconds (JVM running for 60.257)
+[INFO ] 2020-05-26 13:50:06,827 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:50:06,830 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:50:06,830 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:50:12,878 [Thread-16] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:50:12,879 [Thread-16] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:50:14,742 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 15876 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:50:14,743 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:50:15,196 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:50:15,196 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:50:15,224 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:50:15,375 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cbf8c11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:50:15,563 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:50:15,567 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:50:15,567 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:50:15,567 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:50:15,618 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:50:15,618 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 871 ms
+[INFO ] 2020-05-26 13:50:15,954 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:50:16,121 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:50:16,197 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:50:16,356 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:50:16,399 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:50:16,411 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:50:16,412 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.737 seconds (JVM running for 69.843)
+[INFO ] 2020-05-26 13:50:16,413 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:50:16,461 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:50:16,461 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:50:17,879 [Thread-22] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:50:17,880 [Thread-22] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:50:19,735 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 15876 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:50:19,736 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:50:20,115 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:50:20,115 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:50:20,139 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:50:20,220 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cbf8c11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:50:20,350 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:50:20,351 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:50:20,352 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:50:20,352 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:50:20,390 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:50:20,390 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 650 ms
+[INFO ] 2020-05-26 13:50:20,537 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:50:20,584 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:50:20,627 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:50:20,686 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:50:20,718 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:50:20,723 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:50:20,723 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.049 seconds (JVM running for 74.155)
+[INFO ] 2020-05-26 13:50:20,724 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:50:20,727 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:50:20,727 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:50:40,251 [Thread-28] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:50:40,252 [Thread-28] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:50:42,245 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 15876 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:50:42,246 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:50:42,744 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:50:42,744 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:50:42,769 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:50:42,956 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cbf8c11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:50:43,177 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:50:43,178 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:50:43,179 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:50:43,180 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:50:43,238 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:50:43,238 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 985 ms
+[INFO ] 2020-05-26 13:50:43,417 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:50:43,486 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:50:43,528 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:50:43,576 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:50:43,604 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:50:43,611 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:50:43,612 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.452 seconds (JVM running for 97.043)
+[INFO ] 2020-05-26 13:50:43,613 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:50:43,616 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 13:50:43,617 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:59:39,820 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 10472 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 13:59:39,823 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 13:59:39,979 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-05-26 13:59:39,980 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-05-26 13:59:41,332 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 13:59:41,338 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 13:59:41,407 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 13:59:42,106 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a2ee2dc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 13:59:43,523 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 13:59:43,554 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:59:43,571 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 13:59:43,571 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 13:59:43,587 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\Thinkpad-W530\product\11.2.0\client_2\bin;C:\app\Thinkpad-W530\product\11.2.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;".;D:\Java\jdk1.8.0\lib;D:\Java\jdk1.8.0\lib\tools.jar";"D:\maven\apache-maven-3.3.9\bin";C:\Program Files\nodejs\;C:\Users\Thinkpad-W530\AppData\Local\Microsoft\WindowsApps;C:\Users\Thinkpad-W530\AppData\Roaming\npm;.]
+[INFO ] 2020-05-26 13:59:43,771 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 13:59:43,771 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3791 ms
+[INFO ] 2020-05-26 13:59:44,879 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 13:59:45,209 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 13:59:45,497 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 13:59:45,639 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 13:59:45,767 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 13:59:45,817 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 13:59:45,823 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 7.167 seconds (JVM running for 8.016)
+[INFO ] 2020-05-26 13:59:45,826 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 13:59:45,829 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 13:59:46,033 [pool-3-thread-1] io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2020-05-26 13:59:46,035 [pool-3-thread-1] io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2020-05-26 14:00:00,749 [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-05-26 14:00:00,749 [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-05-26 14:00:00,766 [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+[INFO ] 2020-05-26 14:04:16,057 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 14920 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 14:04:16,059 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 14:04:16,214 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-05-26 14:04:16,214 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-05-26 14:04:17,527 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 14:04:17,534 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 14:04:17,625 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 14:04:18,400 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40b38412] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 14:04:19,829 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 14:04:19,857 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 14:04:19,878 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 14:04:19,878 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 14:04:19,894 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\Thinkpad-W530\product\11.2.0\client_2\bin;C:\app\Thinkpad-W530\product\11.2.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;".;D:\Java\jdk1.8.0\lib;D:\Java\jdk1.8.0\lib\tools.jar";"D:\maven\apache-maven-3.3.9\bin";C:\Program Files\nodejs\;C:\Users\Thinkpad-W530\AppData\Local\Microsoft\WindowsApps;C:\Users\Thinkpad-W530\AppData\Roaming\npm;.]
+[INFO ] 2020-05-26 14:04:20,106 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 14:04:20,106 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3892 ms
+[INFO ] 2020-05-26 14:04:21,249 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 14:04:21,585 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 14:04:21,882 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 14:04:22,013 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 14:04:22,136 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 14:04:22,190 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 14:04:22,197 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 7.287 seconds (JVM running for 8.238)
+[INFO ] 2020-05-26 14:04:22,199 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 14:04:22,202 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 14:04:22,396 [pool-3-thread-1] io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2020-05-26 14:04:22,398 [pool-3-thread-1] io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2020-05-26 14:04:23,111 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-05-26 14:04:23,111 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-05-26 14:04:23,127 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+[INFO ] 2020-05-26 14:07:36,868 [Thread-6] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 14:07:36,870 [Thread-6] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 14:07:38,788 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 14920 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 14:07:38,788 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 14:07:39,299 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 14:07:39,299 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 14:07:39,320 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 14:07:39,446 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40b38412] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 14:07:39,617 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 14:07:39,618 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 14:07:39,619 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 14:07:39,620 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 14:07:39,676 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 14:07:39,676 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 882 ms
+[INFO ] 2020-05-26 14:07:39,912 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 14:07:40,002 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 14:07:40,071 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 14:07:40,157 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 14:07:40,212 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 14:07:40,220 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 14:07:40,220 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.503 seconds (JVM running for 206.262)
+[INFO ] 2020-05-26 14:07:40,222 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 14:07:40,226 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 14:07:40,227 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 14:08:01,369 [Thread-10] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 14:08:01,371 [Thread-10] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 14:08:03,424 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 14920 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 14:08:03,425 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 14:08:03,902 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 14:08:03,902 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 14:08:03,924 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 14:08:04,048 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40b38412] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 14:08:04,204 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 14:08:04,205 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 14:08:04,206 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 14:08:04,206 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 14:08:04,244 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 14:08:04,245 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 815 ms
+[INFO ] 2020-05-26 14:08:04,471 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 14:08:04,543 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 14:08:04,606 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 14:08:04,675 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 14:08:04,721 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 14:08:04,727 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 14:08:04,728 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 1.391 seconds (JVM running for 230.769)
+[INFO ] 2020-05-26 14:08:04,729 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 14:08:04,733 [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2020-05-26 14:08:04,733 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 14:08:56,468 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 5320 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2020-05-26 14:08:56,470 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2020-05-26 14:08:56,650 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2020-05-26 14:08:56,650 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2020-05-26 14:08:58,130 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2020-05-26 14:08:58,138 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2020-05-26 14:08:58,300 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78ms. Found 0 repository interfaces.
+[INFO ] 2020-05-26 14:08:59,276 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2a08e178] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2020-05-26 14:09:00,803 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2020-05-26 14:09:00,833 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 14:09:00,858 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2020-05-26 14:09:00,859 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2020-05-26 14:09:00,880 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\Thinkpad-W530\product\11.2.0\client_2\bin;C:\app\Thinkpad-W530\product\11.2.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;".;D:\Java\jdk1.8.0\lib;D:\Java\jdk1.8.0\lib\tools.jar";"D:\maven\apache-maven-3.3.9\bin";C:\Program Files\nodejs\;C:\Users\Thinkpad-W530\AppData\Local\Microsoft\WindowsApps;C:\Users\Thinkpad-W530\AppData\Roaming\npm;.]
+[INFO ] 2020-05-26 14:09:01,057 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2020-05-26 14:09:01,058 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4407 ms
+[INFO ] 2020-05-26 14:09:02,205 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-05-26 14:09:02,546 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2020-05-26 14:09:02,826 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2020-05-26 14:09:02,968 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2020-05-26 14:09:03,097 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2020-05-26 14:09:03,148 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2020-05-26 14:09:03,154 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 7.799 seconds (JVM running for 8.646)
+[INFO ] 2020-05-26 14:09:03,155 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2020-05-26 14:09:03,158 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
+[INFO ] 2020-05-26 14:09:03,329 [pool-3-thread-1] io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2020-05-26 14:09:03,331 [pool-3-thread-1] io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2020-05-26 14:09:32,604 [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2020-05-26 14:09:32,605 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-05-26 14:09:32,625 [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 20 ms

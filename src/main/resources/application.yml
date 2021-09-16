@@ -1,0 +1,28 @@
+server:
+  port: 8080
+logging:
+  config: classpath:logging-config.xml
+spring:
+  thymeleaf:
+     prefix: classpath:/templates/
+     suffix: .html
+    #    mode: HTML5
+     mode: LEGACYHTML5
+     encoding: UTF-8
+     cache: false
+     servlet:
+          content-type: text/html
+  devtools:
+    restart:
+      enabled: true
+  redis:
+      database: 3
+      host: 127.0.0.1
+      password: Zhangzy19920406 # Login password of the redis server.
+      port: 6779
+      timeout: 5000
+      pool:
+        max-active: 8 #最大连接数
+        max-idle: 8 #最大空闲连接数
+        max-wait: -1 #最大等待时间
+        min-idle: 0 #初始化连接数

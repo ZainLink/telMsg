@@ -1,0 +1,2 @@
+[WARN ] 2019-04-28 10:38:24,817 [restartedMain] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+[WARN ] 2019-04-28 10:42:50,334 [restartedMain] o.t.templatemode.TemplateMode - [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.

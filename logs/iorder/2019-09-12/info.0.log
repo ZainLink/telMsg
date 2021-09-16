@@ -1,0 +1,24 @@
+[INFO ] 2019-09-12 08:37:49,031 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on ZhangPC with PID 3384 (E:\msgInfo\target\classes started by Thinkpad in E:\msgInfo)
+[INFO ] 2019-09-12 08:37:49,034 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-09-12 08:37:49,604 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2019-09-12 08:37:49,604 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2019-09-12 08:37:53,620 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-09-12 08:37:53,626 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-09-12 08:37:53,819 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 repository interfaces.
+[INFO ] 2019-09-12 08:37:55,022 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$13035ed8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-09-12 08:37:56,867 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1888 (http)
+[INFO ] 2019-09-12 08:37:56,987 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-1888"]
+[INFO ] 2019-09-12 08:37:57,031 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-09-12 08:37:57,031 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-09-12 08:37:57,087 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\app\Thinkpad\product\11.2.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64; D:\Java\jdk1.8\bin;D:\Java\jdk1.8\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\maven\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;D:\linux;C:\Users\Thinkpad\AppData\Roaming\npm;.]
+[INFO ] 2019-09-12 08:37:57,477 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-09-12 08:37:57,478 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7874 ms
+[INFO ] 2019-09-12 08:38:00,631 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-09-12 08:38:01,183 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2019-09-12 08:38:01,719 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2019-09-12 08:38:01,922 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2019-09-12 08:38:02,081 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-1888"]
+[INFO ] 2019-09-12 08:38:02,178 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1888 (http) with context path ''
+[INFO ] 2019-09-12 08:38:02,194 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 17.777 seconds (JVM running for 19.71)
+[INFO ] 2019-09-12 08:38:02,205 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2019-09-12 08:38:02,215 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------

@@ -1,0 +1,24 @@
+[INFO ] 2021-07-06 08:55:52,699 [restartedMain] com.zyportal2.SmssendApplication - Starting SmssendApplication on DESKTOP-VDIGDRO with PID 21296 (E:\msgInfo\target\classes started by Thinkpad-W530 in E:\msgInfo)
+[INFO ] 2021-07-06 08:55:52,707 [restartedMain] com.zyportal2.SmssendApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2021-07-06 08:55:52,968 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2021-07-06 08:55:52,968 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2021-07-06 08:55:54,797 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2021-07-06 08:55:54,803 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2021-07-06 08:55:54,892 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 0 repository interfaces.
+[INFO ] 2021-07-06 08:55:55,637 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9c4636ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2021-07-06 08:55:57,290 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 2021-07-06 08:55:57,315 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 2021-07-06 08:55:57,352 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2021-07-06 08:55:57,352 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2021-07-06 08:55:57,371 [restartedMain] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\app\Thinkpad-W530\product\11.2.0\client_2\bin;C:\app\Thinkpad-W530\product\11.2.0\client_1;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;".;D:\Java\jdk1.8.0\lib;D:\Java\jdk1.8.0\lib\tools.jar";D:\maven\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;D:\VisualSVN Server\bin;D:\erl-23.3\bin;D:\rabbitmq\rabbitmq_server-3.8.14\sbin;C:\Users\Thinkpad-W530\AppData\Local\Microsoft\WindowsApps;C:\Users\Thinkpad-W530\AppData\Roaming\npm;.]
+[INFO ] 2021-07-06 08:55:57,598 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2021-07-06 08:55:57,598 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4619 ms
+[INFO ] 2021-07-06 08:55:59,082 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-07-06 08:55:59,401 [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+[INFO ] 2021-07-06 08:55:59,727 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 2021-07-06 08:55:59,878 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2021-07-06 08:55:59,951 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 2021-07-06 08:56:00,003 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 2021-07-06 08:56:00,010 [restartedMain] com.zyportal2.SmssendApplication - Started SmssendApplication in 8.873 seconds (JVM running for 10.032)
+[INFO ] 2021-07-06 08:56:00,012 [restartedMain] c.z.s.serviceImpl.TaskServiceImpl - -----------------开始执行任务-------------------
+[INFO ] 2021-07-06 08:56:00,014 [restartedMain] com.zyportal2.SmssendApplication - ------------工程启动--------------
