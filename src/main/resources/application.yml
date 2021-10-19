@@ -18,7 +18,7 @@ spring:
   redis:
       database: 3
       host: 127.0.0.1
-      password: Zhangzy19920406 # Login password of the redis server.
+      password:  # Login password of the redis server.
       port: 6779
       timeout: 5000
       pool:
